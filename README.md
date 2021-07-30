@@ -35,3 +35,8 @@ Disallow: /comeuntochrist/lp/
 Disallow: /comeuntochrist/teach/
 Sitemap: https://www.churchofjesuschrist.org/sitemaps
 ```
+
+'User-agent: \*' means that all the subsequent lines apply for every user-agent or user.
+'Disallow: /blabla' means that the path is not allowed for indexing or scraping. 
+'Allow: /blabla/hello' means that even if the root dir 'blabla' is not allowed, the 'hello' path actually is.
+
