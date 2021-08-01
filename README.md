@@ -2,7 +2,7 @@
 
 Web scrapping is a technique used for extracting and indexing data from websites. Most of the search engines like Google use it in order to index and improve the search experience for users.
 
-## The robot.txt file
+## The robots.txt file
 
 This is just a text file that most of the webpages use in order to notify the user-agents and bots which paths they should not extract data from. This is an example from the lds.org site:
 
@@ -43,7 +43,7 @@ Sitemap: https://www.churchofjesuschrist.org/sitemaps
 
 ## An example as introduction
 
-[requests](#) and [BeautifulSoup](#) are the main libraries for this kind of scripts
+[requests](https://docs.python-requests.org/en/master/user/quickstart/#make-a-request) and [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/#quick-start) are the main libraries for this kind of scripts
 
 ```python
 import requests
