@@ -41,8 +41,17 @@ Sitemap: https://www.churchofjesuschrist.org/sitemaps
 'Allow: /blabla/hello' means that although the root dir 'blabla' is not allowed, the 'hello' path actually is.
 
 
-## Useful Libraries for webscraping
+## An example as introduction
 
-### Requests Lib
+[requests](#) and [BeautifulSoup](#) are the main libraries for this kind of scripts
+
+```python
+import requests
+from bs4 import BeautifulSoup
+
+r = requests.get('https://www.lipsum.com/')
+html_content = r.text
+soup = BeautifulSoup(html_content, 'html.parser') # This is the Beautiful object necessary to parse all the data
+```
 
 
